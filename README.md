@@ -1,4 +1,3 @@
 # TicTacToeSocketGUI
-A fully functional Tic Tac Toe game 
-intended to be used between two users 
-utilizing socket connection and GUI interface via tkinter
+The following files can be interactive on both separate or single machine/s. Each program is to be executed individually excluding the gameboard module.
+An interactive, simple Tic Tac Toe Game is created utilizing a socket connection and the Tkinter Python library serving as the GUI.
