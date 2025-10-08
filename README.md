@@ -15,8 +15,6 @@ This project was developed to explore:
 - Synchronization of game states and user inputs across two networked machines.
 - Handling concurrent events, user turns, and message transmission over TCP connections.
 
-Through this project, the developer aimed to reinforce understanding of both **networking protocols** and **interactive application design**.
-
 ---
 
 ## System Architecture
@@ -59,8 +57,8 @@ Key features include:
 - **Modules:**  
   - `server.py` — initializes the hosting socket and waits for incoming connections.  
   - `client.py` — connects to a host machine and communicates move data.  
-  - `gui.py` (or integrated GUI logic) — manages visual board updates and player interactions.  
-  - `game_logic.py` (if present) — tracks board states, move validation, and win conditions.
+  - `gui.py` — manages visual board updates and player interactions.  
+  - `game_logic.py` — tracks board states, move validation, and win conditions.
 
 - **Network Behavior:**  
   - The host binds to a local IP address and port (commonly 127.0.0.1 or LAN IP).  
